@@ -1,4 +1,4 @@
-package br.com.evandersondev
+package br.com.evandersondev.structures
 
 import java.math.BigDecimal
 import java.math.RoundingMode

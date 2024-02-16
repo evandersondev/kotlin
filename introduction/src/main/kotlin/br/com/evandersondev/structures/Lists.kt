@@ -1,4 +1,4 @@
-package br.com.evandersondev
+package br.com.evandersondev.structures
 
 fun main() {
     var array = arrayOf(1, 2, 3, 4, 5, 6)
@@ -16,4 +16,6 @@ fun main() {
     val arrayList = arrayListOf(1, 2, 3, 4, 5, 6)
     arrayList.add(23)
     println(arrayList)
+
+
 }

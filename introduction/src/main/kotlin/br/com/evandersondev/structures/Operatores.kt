@@ -1,4 +1,4 @@
-package br.com.evandersondev
+package br.com.evandersondev.structures
 
 fun main() {
     /*

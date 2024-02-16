@@ -1,4 +1,4 @@
-package br.com.evandersondev
+package br.com.evandersondev.structures
 
 import kotlin.random.Random
 import kotlin.time.measureTime

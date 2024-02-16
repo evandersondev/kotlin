@@ -1,4 +1,4 @@
-package br.com.evandersondev
+package br.com.evandersondev.structures
 
 import java.text.SimpleDateFormat
 import java.time.DayOfWeek
@@ -43,4 +43,8 @@ fun main() {
 
     // ======================================================================================
     println(yesterday.dayOfWeek == DayOfWeek.SATURDAY)
+
+    val calendar = Calendar.getInstance()
+    calendar.time = yesterdayDate
+    println(calendar.get(Calendar.DAY_OF_WEEK))
 }
